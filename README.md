@@ -17,7 +17,7 @@ You will be able to browse key characters from the films, different planets, and
 I plan on having a home screen with some fun star wars styling and the infamous scrolling text giving a brief introduction of what the app is all about. You would then be able to click on the character, planet, and movies links to browse items within those dashboards and then click to each item's individual page.  There will also be links on each of these tying the three of these all together too. For example, if you are on Luke Skywalker's profile you can also click to visit his home planet's profile, or what movies he has appeared in. Like I said, there is a lot of data to play with, and if I find myself getting through the basics of this more quickly than I am expecting, then I will
 tie in some more of the data to make it more feature rich for the use.
  
-## MVP and user stories:
+## MVP:
 MVP would accomplish the following:
 - Home screen displaying scrolling text and nav bar with all nav buttons functioning
 - Nav buttons should take the user to each of the items dashboard pages (character, planet, movies)
