@@ -1,7 +1,7 @@
 # Star Wars for Dummies
 A SPA utilizing a Star Wars API allowing users to learn a bit more about star wars characters, planets, and movies
  
-##Project Description:
+## Project Description:
 After a lot of thought and some searching on-line, I think I have come up with a unique
 idea for my SPA React app.
  
@@ -17,14 +17,14 @@ You will be able to browse key characters from the films, different planets, and
 I plan on having a home screen with some fun star wars styling and the infamous scrolling text giving a brief introduction of what the app is all about. You would then be able to click on the character, planet, and movies links to browse items within those dashboards and then click to each item's individual page.  There will also be links on each of these tying the three of these all together too. For example, if you are on Luke Skywalker's profile you can also click to visit his home planet's profile, or what movies he has appeared in. Like I said, there is a lot of data to play with, and if I find myself getting through the basics of this more quickly than I am expecting, then I will
 tie in some more of the data to make it more feature rich for the use.
  
-##MVP and user stories:
+## MVP and user stories:
 MVP would accomplish the following:
 - Home screen displaying scrolling text and nav bar with all nav buttons functioning
 - Nav buttons should take the user to each of the items dashboard pages (character, planet, movies)
 - Each item within each of those dashboards should link to each item's individual info page
 - Links to home planet and movie appearances from character pages should take the user to those other elements
  
-##User stories:
+## User stories:
 - The user should be able to load the page with no errors
 - The user should understand the purpose of the app via the home screen text scroll
 - The user should be able to click on any of the options in the nav bar with no errors
@@ -32,11 +32,11 @@ MVP would accomplish the following:
 - The user should be able to click on any dashboard item to have it pull up it's own info page
 - The user should also be able to click on subsidiary links within each item to link to other information in the app.
  
-##Stretch Goals:
+## Stretch Goals:
 - The most immediate stretch goal would be implementing a simple back button to take the user to the most recent component they were on as I could see it getting really annoying having to backtrack manually when exploring the data
 - More categories like weapons, starships, species, etc...
  
-##API documentation link:
+## API documentation link:
 https://swapi.dev/documentation
  
 
