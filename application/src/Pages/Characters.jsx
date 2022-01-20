@@ -6,12 +6,12 @@ const Characters = ()=>{
   
    const [characters, setCharacters]= useState()
      useEffect(()=> {
-        fetch('https://swapi.dev/api/people')
+        fetch('https://swapi.dev/api/people/?page=1')
         .then((res)=>res.json())
         .then((json)=>{
             setCharacters(json)
         })
-    },[])
+    },(1))
     if(!characters) {
         return <p>Loading.......</p>
     }
@@ -19,17 +19,14 @@ const Characters = ()=>{
   
     return(
     <div className="card-container">
-      {characters.map((item)=> {
+      {characters.results.map(item=> {
           return (
-          <h1>{item.name}</h1>
+        <div className="characters-list">
+          <CharacterCard {...item}/>
+        </div>
             )
       })}
     </div>
   )
-
-   
-
-    
-
 }
 export default Characters
