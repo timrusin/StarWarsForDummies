@@ -3,7 +3,7 @@ import '../CSS/Planets.css'
 
 const Planets = ()=>{
     return(
-        <h1>Planets will list here</h1>
+        <p>This is the planets dashboard</p>
     )
 }
 

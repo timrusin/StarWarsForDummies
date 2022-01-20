@@ -1,5 +1,5 @@
 import React, { Route, Routes } from 'react-router-dom'
-import './CSS/App.css'
+import { Container } from 'reactstrap'
 import Navigation from './Components/Navigation'
 import Home from './Components/Home'
 import Characters from './Pages/Characters'
@@ -11,20 +11,20 @@ import MovieInfo from './Pages/MovieInfo'
 
 function App() {
   return (
-    <div>
+    <Container>
       <Navigation/>
-    <main>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/characters' element={<Characters/>}/>
-        <Route path='/planets' element={<Planets/>}/>
-        <Route path='/movies' element={<Movies/>}/>
-        <Route path='/character:id' element={<CharacterInfo/>}/>
-        <Route path='/planet:id' element={<PlanetInfo/>}/>
-        <Route path='/movie:id' element={<MovieInfo/>}/>
-      </Routes>
-    </main>
-    </div>
+        <main>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/characters' element={<Characters/>}/>
+            <Route path='/planets' element={<Planets/>}/>
+            <Route path='/movies' element={<Movies/>}/>
+            <Route path='/character:id' element={<CharacterInfo/>}/>
+            <Route path='/planet:id' element={<PlanetInfo/>}/>
+            <Route path='/movie:id' element={<MovieInfo/>}/>
+          </Routes>
+        </main>
+    </Container>
   );
 }
 
