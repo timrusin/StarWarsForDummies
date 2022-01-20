@@ -18,13 +18,17 @@ const Characters = ()=>{
     console.log(characters)
   
     return(
-      <p>This is the characters dashboard</p>
+    <div className="card-container">
+      {characters.map((item)=> {
+          return (
+          <h1>{item.name}</h1>
+            )
+      })}
+    </div>
   )
 
    
-//     characters.map((item)=>{
-//         return <CharacterCard {...item}/>
-//     })
+
     
 
 }

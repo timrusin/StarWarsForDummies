@@ -1,9 +1,11 @@
 import React from "react";
 
-const CharacterCard = ()=>{
+const CharacterCard = (props)=>{
+    const {name, height, mass, hair_color, skin_color } = props
 
     return(
-        <h3>card</h3>
+        <h1>{name}</h1>
+        
     )
 }
 export default CharacterCard
