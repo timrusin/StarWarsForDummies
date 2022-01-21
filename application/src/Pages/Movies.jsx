@@ -12,7 +12,11 @@ const Movies = ()=>{
         .then((json)=>setMovies(json))
     },[])
     if(!movies){
-        return <p>Loading....</p>
+        return (
+        <Container>
+          <p>Loading.......</p>
+        </Container>
+        )
     }
     const moviesArray = movies.results
     console.log(moviesArray)
@@ -22,7 +26,7 @@ const Movies = ()=>{
             {moviesArray.map((item, i)=>{
             return(
                 <div>
-                    <MovieCard {...item} key={i} arrayIndex={i}/>
+                    <MovieCard key={i} arrayIndex={i} {...item}/>
                 </div>
                 )
             })}

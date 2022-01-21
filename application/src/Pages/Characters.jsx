@@ -12,7 +12,11 @@ const Characters = ()=>{
         .then((json)=>setCharacters(json))
     },[])
     if(!characters) {
-        return <p>Loading.......</p>
+      return (
+          <Container>
+          <p>Loading.......</p>
+          </Container>
+        )
     }
     console.log(characters)
     const charactersArray = characters.results
@@ -24,7 +28,7 @@ const Characters = ()=>{
         {charactersArray.map((item, i)=> {
             return (
           <div className="characters-list">
-            <CharacterCard {...item} key={i} arrayIndex={i}/>
+            <CharacterCard key={i} arrayIndex={i} {...item}/>
           </div>
               )
         })}

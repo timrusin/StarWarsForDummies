@@ -19,6 +19,7 @@ const MovieInfo = ()=>{
             setMovie(json)
         })
     },[])
+    console.log(movie)
     if (!movie){
         return <p>Loading...</p>
     }
@@ -31,6 +32,7 @@ const MovieInfo = ()=>{
             <li>Released: {movie.release_date}</li>
             <li>Producer(s): {movie.producer}</li>
         </ul>
+            <p>{movie.opening_crawl}</p>
         <Link to='../movies'><button>Back</button></Link> 
     </Container>
     )
