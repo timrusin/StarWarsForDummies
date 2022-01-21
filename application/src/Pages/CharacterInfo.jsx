@@ -1,13 +1,12 @@
-import React from "react";
-import '../CSS/CharacterInfo.css'
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom"
 import { Container } from "reactstrap";
+import '../CSS/CharacterInfo.css'
 
 const CharacterInfo = ()=>{
     let { index } = useParams()
     const int = parseInt(index) + 1
-    const [character, setCharacter]= useState(null)
+    const [character, setCharacter]= useState()
 
     const URL = 'https://swapi.dev/api/people/'
     const newURL = URL + int

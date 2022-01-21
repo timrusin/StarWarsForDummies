@@ -7,7 +7,7 @@ import '../CSS/PlanetInfo.css'
 const PlanetInfo = ()=>{
     let { index } = useParams()
     const int = parseInt(index) + 1
-    const [planet, setPlanet] = useState(null)
+    const [planet, setPlanet] = useState()
 
     const URL = 'https://swapi.dev/api/planets/'
     const newURL = URL + int
@@ -20,9 +20,8 @@ const PlanetInfo = ()=>{
             })
         },[])
         if (!planet){
-            return <p>Loading...</p>
+            return <p>Loading....</p>
         }
-
     return(
     <Container>
         <h1>{planet.name}</h1>

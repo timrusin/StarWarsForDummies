@@ -12,7 +12,7 @@ const Planets = ()=>{
        .then((json)=>setPlanets(json))
    },[])
    if(!planets) {
-       return <p>Loading.......</p>
+       return <p>Loading....</p>
    }
    console.log(planets)
    const planetsArray = planets.results
@@ -22,11 +22,11 @@ const Planets = ()=>{
    <Container>
      <div className="card-container">
        {planetsArray.map((item, i)=> {
-           return (
-         <div className="planets-list">
-           <PlanetCard {...item} key={i} arrayIndex={i}/>
-         </div>
-             )
+        return(
+            <div className="planets-list">
+            <PlanetCard {...item} key={i} arrayIndex={i}/>
+            </div>
+            )
        })}
      </div>
    </Container>
