@@ -1,11 +1,9 @@
 body{
     background-color:black;
-    color: white;
-    
+    color: rgb(255, 221, 25);
     background-image:url('/images/starbackground.jpeg');
-}
-
-.scroll{
 
     
 }
+
+

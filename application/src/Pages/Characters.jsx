@@ -1,18 +1,15 @@
 import React, { useState, useEffect } from "react";
 import '../CSS/Characters.css'
 import CharacterCard from '../Components/CharacterCard'
-import { NavItem } from "reactstrap";
-
+import { Container } from "reactstrap";
 const Characters = ()=>{
   
    const [characters, setCharacters]= useState()
 
      useEffect(()=> {
-        fetch('https://swapi.dev/api/people/')
+        fetch('https://swapi.dev/api/people/?page=1')
         .then((res)=>res.json())
-        .then((json)=>{ 
-            setCharacters(json) 
-        })
+        .then((json)=>setCharacters(json))
     },[])
     if(!characters) {
         return <p>Loading.......</p>
@@ -22,15 +19,17 @@ const Characters = ()=>{
     console.log(charactersArray)
     
     return(
-    <div className="card-container">
-      {charactersArray.map(item=> {
-          return (
-        <div className="characters-list">
-          <CharacterCard {...item} key={item.name}/>
-        </div>
-            )
-      })}
-    </div>
+    <Container>
+      <div className="card-container">
+        {charactersArray.map((item, i)=> {
+            return (
+          <div className="characters-list">
+            <CharacterCard {...item} key={i} arrayIndex={i}/>
+          </div>
+              )
+        })}
+      </div>
+    </Container>
   )
 }
 export default Characters

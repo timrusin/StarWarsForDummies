@@ -1,4 +1,5 @@
 import React, { Route, Routes } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Components/Navigation'
 import Home from './Pages/Home'
 import Characters from './Pages/Characters'
@@ -18,8 +19,8 @@ function App() {
             <Route path='/characters' element={<Characters/>}/>
             <Route path='/planets' element={<Planets/>}/>
             <Route path='/movies' element={<Movies/>}/>
-            <Route path='/character:name' element={<CharacterInfo/>}/>
-            <Route path='/planet:id' element={<PlanetInfo/>}/>
+            <Route path='/character/:index' element={<CharacterInfo/>}/>
+            <Route path='/planet/:index' element={<PlanetInfo/>}/>
             <Route path='/movie:id' element={<MovieInfo/>}/>
           </Routes>
         </main>
