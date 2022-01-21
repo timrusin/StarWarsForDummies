@@ -11,14 +11,15 @@ const Characters = ()=>{
         fetch('https://swapi.dev/api/people/')
         .then((res)=>res.json())
         .then((json)=>{ 
-            setCharacters(json)
+            setCharacters(json) 
         })
     },[])
     if(!characters) {
         return <p>Loading.......</p>
     }
-
+    console.log(characters)
     const charactersArray = characters.results
+    console.log(charactersArray)
     
     return(
     <div className="card-container">
