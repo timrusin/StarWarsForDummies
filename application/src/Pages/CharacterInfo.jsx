@@ -30,8 +30,9 @@ const CharacterInfo = ()=>{
         <Container>
             <h1>{character.name}</h1>
             <ul>
-                <li>Height: {character.height}</li>
-                <li>Mass: {character.mass}</li>
+                <li>Gender: {character.gender}</li>
+                <li>Height: {character.height} cm</li>
+                <li>Mass: {character.mass} kg</li>
                 <li>Hair Color: {character.hair_color}</li>
                 <li>Skin Color: {character.skin_color}</li>
             </ul>

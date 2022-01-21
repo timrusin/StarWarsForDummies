@@ -27,13 +27,13 @@ const PlanetInfo = ()=>{
         <h1>{planet.name}</h1>
         <ul>
                 <li>Climate: {planet.climate}</li>
-                <li>Diameter: {planet.diameter}</li>
-                <li>Gravity: {planet.gravity}</li>
-                <li>Orbital Period: {planet.orbital_period}</li>
+                <li>Diameter: {planet.diameter} km</li>
+                <li>Gravity: {planet.gravity} (1 is equal to normal gravity)</li>
+                <li>Orbital Period: {planet.orbital_period} days to orbit local star</li>
                 <li>Population: {planet.population}</li>
                 {/* <li>Residents: {planet.residents}</li> */}
-                <li>Rotation Period: {planet.rotation_period}</li>
-                <li>Surface Water: {planet.surface_water}</li> 
+                <li>Rotation Period: {planet.rotation_period} hours</li>
+                <li>Surface Water: {planet.surface_water} %</li> 
                 <li>Terrain: {planet.terrain}</li>
             
             </ul>
