@@ -21,7 +21,11 @@ const MovieInfo = ()=>{
     },[])
     console.log(movie)
     if (!movie){
-        return <p>Loading...</p>
+        return (
+            <Container>
+              <p>Loading.......</p>
+            </Container>
+            )
     }
     return(
     <Container>

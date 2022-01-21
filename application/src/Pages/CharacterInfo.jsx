@@ -23,7 +23,11 @@ const CharacterInfo = ()=>{
             })
         },[])
         if (!character){
-            return <p>Loading...</p>
+            return (
+                <Container>
+                  <p>Loading.......</p>
+                </Container>
+                )
         }
 
         return(

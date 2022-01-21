@@ -20,7 +20,11 @@ const PlanetInfo = ()=>{
             })
         },[])
         if (!planet){
-            return <p>Loading....</p>
+            return (
+                <Container>
+                  <p>Loading.......</p>
+                </Container>
+                )
         }
     return(
     <Container>
