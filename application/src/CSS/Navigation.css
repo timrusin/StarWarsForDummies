@@ -1,6 +1,7 @@
 .nav-bar{
  height: 60px;
  font-size: 1em;
+z-index: 1;
 }
 
 .swapi{

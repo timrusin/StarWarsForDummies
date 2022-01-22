@@ -5,11 +5,15 @@ import { Container } from "reactstrap";
 const Home = ()=>{
 
     return(
-    <Container>
-        <div>
-            <h1>Home</h1>
+    
+        <div className="wrapper">
+            <div className="crawl">
+                <p>Welcome to Star Wars for dummies.  For all of your Star Wars fun facts and resources.
+                    This app itilizes the SWAPI API pulling 
+                </p>
+            </div>
         </div>
-    </Container>
+  
     )
 }
 

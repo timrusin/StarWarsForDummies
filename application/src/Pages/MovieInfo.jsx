@@ -28,17 +28,26 @@ const MovieInfo = ()=>{
             )
     }
     return(
+   <>
     <Container>
-        <h1>{movie.title}</h1>
-        <ul>
-            <li>Episode: {movie.episode_id}</li>
-            <li>Director: {movie.director}</li>
-            <li>Released: {movie.release_date}</li>
-            <li>Producer(s): {movie.producer}</li>
-        </ul>
-            <p>{movie.opening_crawl}</p>
-        <Link to='../movies'><button>Back</button></Link> 
+    <h1>{movie.title}</h1>
+    <ul>
+        <li>Episode: {movie.episode_id}</li>
+        <li>Director: {movie.director}</li>
+        <li>Released: {movie.release_date}</li>
+        <li>Producer(s): {movie.producer}</li>
+    </ul>
+        <div>
+            <p >
+                {movie.opening_crawl}
+            </p>
+        </div>
+    <Link to='../movies'><button>Back</button></Link> 
     </Container>
+    </>
+            
+
+    
     )
 }
 
