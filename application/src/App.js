@@ -8,10 +8,11 @@ import Movies from './Pages/Movies'
 import CharacterInfo from './Pages/CharacterInfo'
 import PlanetInfo from './Pages/PlanetInfo'
 import MovieInfo from './Pages/MovieInfo'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
+    <>
       <Navigation/>
         <main>
           <Routes>
@@ -24,7 +25,7 @@ function App() {
             <Route path='/movie/:index' element={<MovieInfo/>}/>
           </Routes>
         </main>
-     </div>
+     </>
   );
 }
 
