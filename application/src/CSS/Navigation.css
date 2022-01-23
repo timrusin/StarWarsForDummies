@@ -1,7 +1,9 @@
 .nav-bar{
- height: 60px;
- font-size: 1em;
- z-index: 1;
+    position: sticky;
+    top:0px;
+    height: 60px;
+    font-size: 1em;
+    margin-bottom: 10px;
 }
 
 .swapi{
@@ -10,10 +12,12 @@
 
 .dummies{
     font-size: 10px;
+    margin-right: 20px;
 }
 
 .star-wars{
-    font-size: 25px;
+    font-size: 1.5em;
+    margin-left:5%;
 }
 
 .drop-down{

@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from "react";
 import '../CSS/PlanetCard.css'
-import { Container } from "reactstrap";
+import { Container,  Spinner } from "reactstrap";
 
 const Planets = ()=>{
     const [planets, setPlanets]= useState()
@@ -13,7 +13,7 @@ const Planets = ()=>{
    if(!planets) {
     return (
       <Container>
-        <p>Loading.......</p>
+      <Spinner color="warning" type="border"></Spinner>
       </Container>
       )
    }

@@ -30,7 +30,7 @@ body{
     font-weight: bold;
     text-align: justify;
     position: relative;
-    animation: scroll 250s linear infinite;
+    animation: scroll 200s linear infinite;
     transform: rotateX(60deg); 
 }
 

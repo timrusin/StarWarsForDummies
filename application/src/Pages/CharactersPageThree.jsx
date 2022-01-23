@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container } from "reactstrap";
+import { Container, Spinner } from "reactstrap";
 const CharactersPageThree = ()=>{
   
    const [characters, setCharacters]= useState()
@@ -12,7 +12,7 @@ const CharactersPageThree = ()=>{
     if(!characters) {
       return (
           <Container>
-          <p>Loading.......</p>
+          <Spinner color="warning" type="border"></Spinner>
           </Container>
         )
     }

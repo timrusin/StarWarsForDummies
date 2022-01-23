@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // import '../CSS/Characters.css'
 import '../CSS/CharacterCard.css'
 // import CharacterCard from '../Components/CharacterCard'
-import { Container } from "reactstrap";
+import { Container, Spinner } from "reactstrap";
 // import { Link } from "react-router-dom";
 const Characters = ()=>{
   
@@ -15,9 +15,9 @@ const Characters = ()=>{
     },[])
     if(!characters) {
       return (
-          <Container>
-          <p>Loading.......</p>
-          </Container>
+        <Container>
+        <Spinner color="warning" type="border"></Spinner>
+        </Container>
         )
     }
     console.log(characters)

@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from "react";
-import { Container } from "reactstrap";
-import PlanetCard from "../Components/PlanetCard";
+import { Container, Spinner } from "reactstrap";
+
 
 const PlanetsPageFive = ()=>{
     const [planets, setPlanets]= useState()
@@ -13,7 +13,7 @@ const PlanetsPageFive = ()=>{
    if(!planets) {
     return (
       <Container>
-        <p>Loading.......</p>
+      <Spinner color="warning" type="border"></Spinner>
       </Container>
       )
    }
@@ -26,9 +26,22 @@ const PlanetsPageFive = ()=>{
      <div className="card-container">
        {planetsArray.map((item, i)=> {
         return(
-            <div className="planets-list">
-            <PlanetCard key={i} arrayIndex={i+40} {...item}/>
-            </div>
+          <Container>
+          <div className="planet-container">
+            <h1 className="planet-name">{item.name}</h1>
+              <ul className="planet-specslist">
+                  <li>Climate: {item.climate}</li>
+                  <li>Diameter: {item.diameter} km</li>
+                  <li>Gravity: {item.gravity} (1 is equal to normal gravity)</li>
+                  <li>Orbital Period: {item.orbital_period} days to orbit local star</li>
+                  <li>Population: {item.population}</li>
+                  {/* <li>Residents: {item.residents}</li> */}
+                  <li>Rotation Period: {item.rotation_period} hours</li>
+                  <li>Surface Water: {item.surface_water} %</li> 
+                  <li>Terrain: {item.terrain}</li>
+              </ul>
+        </div>
+    </Container>
             )
        })}
      </div>

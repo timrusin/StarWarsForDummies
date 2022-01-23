@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container } from "reactstrap";
+import { Container, Spinner } from "reactstrap";
 const CharactersPageSeven = ()=>{
   
    const [characters, setCharacters]= useState()
@@ -11,9 +11,9 @@ const CharactersPageSeven = ()=>{
     },[])
     if(!characters) {
       return (
-          <Container>
-          <p>Loading.......</p>
-          </Container>
+        <Container>
+        <Spinner color="warning" type="border"></Spinner>
+        </Container>
         )
     }
     console.log(characters)

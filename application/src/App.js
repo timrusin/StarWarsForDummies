@@ -17,12 +17,7 @@ import PlanetsPageThree from './Pages/PlanetsPageThree'
 import PlanetsPageFour from './Pages/PlanetsPageFour'
 import PlanetsPageFive from './Pages/PlanetsPageFive'
 import PlanetsPageSix from './Pages/PlanetsPageSix'
-
-
 import Movies from './Pages/Movies'
-import CharacterInfo from './Pages/CharacterInfo'
-import PlanetInfo from './Pages/PlanetInfo'
-import MovieInfo from './Pages/MovieInfo'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -48,9 +43,6 @@ function App() {
             <Route path='/planets/page5' element={<PlanetsPageFive/>}/>
             <Route path='/planets/page6' element={<PlanetsPageSix/>}/>
             <Route path='/movies' element={<Movies/>}/>
-            <Route path='/character/:index' element={<CharacterInfo/>}/>
-            <Route path='/planet/:index' element={<PlanetInfo/>}/>
-            <Route path='/movie/:index' element={<MovieInfo/>}/>
           </Routes>
         </main>
      </>
