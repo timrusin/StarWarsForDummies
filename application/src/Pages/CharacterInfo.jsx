@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom"
 import { Container } from "reactstrap";
-import '../CSS/CharacterInfo.css'
+import '../CSS/CharacterCard.css'
 
 const CharacterInfo = ()=>{
     let { index } = useParams()
@@ -32,15 +32,16 @@ const CharacterInfo = ()=>{
 
         return(
         <Container>
-            <h1>{character.name}</h1>
-            <ul>
+        <div className="character-container">
+            <h1 className="character-name">{character.name}</h1>
+            <ul className="character-specs-list">
                 <li>Gender: {character.gender}</li>
                 <li>Height: {character.height} cm</li>
                 <li>Mass: {character.mass} kg</li>
                 <li>Hair Color: {character.hair_color}</li>
                 <li>Skin Color: {character.skin_color}</li>
             </ul>
-        <Link to='../characters'><button>Back</button></Link> 
+        </div>
         </Container>
         )
     }

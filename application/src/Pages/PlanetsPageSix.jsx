@@ -1,5 +1,4 @@
 import React, {useState, useEffect } from "react";
-import '../CSS/Planets.css'
 import { Container } from "reactstrap";
 import PlanetCard from "../Components/PlanetCard";
 

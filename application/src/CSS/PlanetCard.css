@@ -1,0 +1,22 @@
+body{
+    overflow: auto;
+  }
+  .planet-container{
+  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(202, 202, 205);
+  width:auto;
+  height: 250px;
+  text-shadow: 0px 8px 20px rgb(230, 227, 227);
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.365);
+  }
+  
+  .planet-name{
+      font-size: 2em;
+      margin-left: 5px;
+  }
+  
+  .planet-specs-list{
+    font-size: 1em;
+  }

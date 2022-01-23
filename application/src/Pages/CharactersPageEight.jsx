@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import '../CSS/Characters.css'
-import CharacterCard from '../Components/CharacterCard'
 import { Container } from "reactstrap";
 const CharactersPageEight = ()=>{
   
@@ -27,9 +25,18 @@ const CharactersPageEight = ()=>{
       <div className="card-container">
         {charactersArray.map((item, i)=> {
             return (
-          <div className="characters-list">
-            <CharacterCard key={i} arrayIndex={i+71} {...item}/>
-          </div>
+              <Container>
+              <div className="character-container">
+                  <h1 className="character-name">{item.name}</h1>
+                  <ul className="item-specs-list">
+                      <li>Gender: {item.gender}</li>
+                      <li>Height: {item.height} cm</li>
+                      <li>Mass: {item.mass} kg</li>
+                      <li>Hair Color: {item.hair_color}</li>
+                      <li>Skin Color: {item.skin_color}</li>
+                  </ul>
+              </div>
+              </Container>
               )
         })}
       </div>

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
-import '../CSS/Characters.css'
-import CharacterCard from '../Components/CharacterCard'
+// import '../CSS/Characters.css'
+import '../CSS/CharacterCard.css'
+// import CharacterCard from '../Components/CharacterCard'
 import { Container } from "reactstrap";
+// import { Link } from "react-router-dom";
 const Characters = ()=>{
   
    const [characters, setCharacters]= useState()
@@ -27,9 +29,18 @@ const Characters = ()=>{
       <div className="card-container">
         {charactersArray.map((item, i)=> {
             return (
-          <div className="characters-list">
-            <CharacterCard key={i} arrayIndex={i} {...item}/>
-          </div>
+              <Container>
+              <div className="character-container">
+                  <h1 className="character-name">{item.name}</h1>
+                  <ul className="item-specs-list">
+                      <li>Gender: {item.gender}</li>
+                      <li>Height: {item.height} cm</li>
+                      <li>Mass: {item.mass} kg</li>
+                      <li>Hair Color: {item.hair_color}</li>
+                      <li>Skin Color: {item.skin_color}</li>
+                  </ul>
+              </div>
+              </Container>
               )
         })}
       </div>
