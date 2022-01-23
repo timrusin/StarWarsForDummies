@@ -1,9 +1,23 @@
 .nav-bar{
  height: 60px;
  font-size: 1em;
-z-index: 1;
+ z-index: 1;
 }
 
 .swapi{
     font-size:.75em;
+}
+
+.dummies{
+    font-size: 10px;
+}
+
+.star-wars{
+    font-size: 25px;
+}
+
+.drop-down{
+    background-color: rgba(171, 171, 171, 0.831);
+    width: 20px;
+ 
 }

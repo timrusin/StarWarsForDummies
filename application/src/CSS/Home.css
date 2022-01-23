@@ -32,12 +32,12 @@ body{
     text-align: justify;
     position: relative;
     animation: scroll 120s linear;
-    transform: rotateX(20deg); 
+    transform: rotateX(60deg); 
 }
 
 @keyframes scroll {
-    from {top: 0; transform: translateZ(0) rotateX(20deg) }
-    to {top:-8000px; transform: translateZ(-2500px) rotateX(35deg)}
+    from {top: 0; transform: translateZ(0) rotateX(10deg) }
+    to {top:-9500px; transform: translateZ(-1000px) rotateX(30deg)}
 } 
 
 .crawl-sections{
