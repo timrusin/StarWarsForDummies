@@ -9,7 +9,7 @@ body{
     display: flex;
     perspective: 500px;
     height: 100%;
-    width: 98%;
+    width: auto;
     margin: 0 auto;
     padding-top:200px;
 }
@@ -23,11 +23,12 @@ body{
     background: linear-gradient(180deg, rgb(0, 0, 0)40%, rgba(0, 0, 0, 0) 100%);
 }
 .crawl{
+
     margin: 50% 0 0 0;
     color: #ffc909; 
     font-size:5vw;
     line-height: 1.5em;
-    font-weight: bold;
+    font-weight: bold; 
     text-align: justify;
     position: relative;
     animation: scroll 200s linear infinite;
@@ -45,7 +46,7 @@ body{
 
 .opening-title{
     text-align: center;
-    font-size: 10vw;
+    font-size: 2em;
     padding-bottom: 50px;
 }
 

@@ -1,6 +1,7 @@
 import React, {useState, useEffect } from "react";
 import '../CSS/PlanetCard.css'
 import { Container,  Spinner } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const Planets = ()=>{
     const [planets, setPlanets]= useState()
@@ -44,6 +45,11 @@ const Planets = ()=>{
       </Container>
             )
        })}
+       <div className="page-buttons">
+          <Link to='/planets/page2'>
+            <button>next</button>
+          </Link>
+        </div>
      </div>
    </Container>
  )

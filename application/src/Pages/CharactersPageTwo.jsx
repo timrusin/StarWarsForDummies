@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Spinner } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const CharactersPageTwo = ()=>{
    const [characters, setCharacters]= useState()
@@ -39,6 +40,14 @@ const CharactersPageTwo = ()=>{
               </Container>
               )
         })}
+        <div className="page-buttons">
+          <Link to='/characters/page1'>
+            <button>previous</button>
+          </Link>
+          <Link to='/characters/page3'>
+            <button>next</button>
+          </Link>
+        </div>
       </div>
     </Container>
   )
