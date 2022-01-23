@@ -52,22 +52,42 @@ const Navigation = ()=>{
                 <DropdownItem>
                 <NavLink href='/characters/page9'>Page9</NavLink>
                 </DropdownItem>
-                {/* <DropdownItem divider />
-                <DropdownItem>
-                Reset
-                </DropdownItem> */}
             </DropdownMenu>
             </UncontrolledDropdown>
+            
+
             <NavItem>
                 <NavLink href="/Movies/">
                 Movies
                 </NavLink>
             </NavItem>
-            <NavItem>
-            <NavLink href="/planets">
-                Planets
-            </NavLink>
-            </NavItem>
+            
+            <UncontrolledDropdown inNavbar nav>
+<DropdownToggle caret nav> Planets</DropdownToggle>
+<DropdownMenu end>
+    <DropdownItem>
+    <NavLink href='/planets/page1'>Page1</NavLink>
+    </DropdownItem>
+    <DropdownItem>
+    <NavLink href='/planets/page2'>Page2</NavLink>
+    </DropdownItem>
+    <DropdownItem>
+    <NavLink href='/planets/page3'>Page3</NavLink>
+    </DropdownItem>
+    <DropdownItem>
+    <NavLink href='/planets/page4'>Page4</NavLink>
+    </DropdownItem>
+    <DropdownItem>
+    <NavLink href='/planets/page5'>Page5</NavLink>
+    </DropdownItem>
+    <DropdownItem>
+    <NavLink href='/planets/page6'>Page6</NavLink>
+    </DropdownItem>
+</DropdownMenu>
+</UncontrolledDropdown>
+            
+            
+            
         </Nav>
         <NavbarText className="swapi">
             powered by:<NavLink href="https://swapi.dev/" target="new">SWAPI</NavLink>
