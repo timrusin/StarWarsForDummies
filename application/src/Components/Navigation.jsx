@@ -26,10 +26,31 @@ const Navigation = ()=>{
             <DropdownToggle caret nav> Characters</DropdownToggle>
             <DropdownMenu end>
                 <DropdownItem>
-                <NavLink href='/characters'>Page1</NavLink>
+                <NavLink href='/characters/page1'>Page1</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                Page2
+                <NavLink href='/characters/page2'>Page2</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href='/characters/page3'>Page3</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href='/characters/page4'>Page4</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href='/characters/page5'>Page5</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href='/characters/page6'>Page6</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href='/characters/page7'>Page7</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href='/characters/page8'>Page8</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href='/characters/page9'>Page9</NavLink>
                 </DropdownItem>
                 {/* <DropdownItem divider />
                 <DropdownItem>

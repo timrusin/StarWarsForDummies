@@ -37,7 +37,7 @@ body{
 
 @keyframes scroll {
     from {top: 0; transform: translateZ(0) rotateX(20deg) }
-    to {top:-9000px; transform: translateZ(-2500px) rotateX(35deg)}
+    to {top:-8000px; transform: translateZ(-2500px) rotateX(35deg)}
 } 
 
 .crawl-sections{
