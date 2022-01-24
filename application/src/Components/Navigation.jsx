@@ -7,7 +7,7 @@ import { Container, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, 
 const Navigation = ()=>{
     return(
 
-    <Navbar className="nav-bar" color="warning" expand="md" fixed="top" light>
+    <Navbar className="nav-bar" color="warning" expand="sm" fixed="top" light>
         <NavbarBrand href="/">
         <span className="star-wars">StarWars</span> <span className="dummies">for dummies</span>
         </NavbarBrand>

@@ -8,8 +8,11 @@ const Home = ()=>{
 <div className="wrapper">
      <div className="crawl">
          <h1 className="opening-title">
-         Star Wars for Dummies
+         Star Wars
          </h1>
+         <div className="opening-subtitle">
+         for Dummies
+         </div>
          <div className="crawl-sections">
          OK, you may not be a dummy, but you may have also NEVER seen a Star Wars movie in your life. 
          </div>

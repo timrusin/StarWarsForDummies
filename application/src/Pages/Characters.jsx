@@ -13,9 +13,11 @@ const Characters = ()=>{
     },[])
     if(!characters) {
       return (
-        <Container>
-        <Spinner color="warning" type="border"></Spinner>
-        </Container>
+        <div className="spinner">
+          <Container>
+          <Spinner color="warning" type="border"></Spinner>
+          </Container>
+        </div>
         )
     }
     console.log(characters)
@@ -25,9 +27,9 @@ const Characters = ()=>{
     return(
     <Container>
       <div className="card-container">
-        {charactersArray.map((item, i)=> {
+        {charactersArray.map((item)=> {
             return (
-              <Container>
+              <Container key={item.name}>
               <div className="character-container">
                   <h1 className="character-name">{item.name}</h1>
                   <ul className="item-specs-list">

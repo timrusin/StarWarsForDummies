@@ -25,7 +25,7 @@ const Movies = ()=>{
         <div className="card-container">
             {moviesArray.map((item, i)=>{
             return(
-                <Container>
+                <Container key={item.title}>
                     <div className="movie-container">
                 <h1 className="movie-name">{item.title}</h1>
                 <ul className="movie-specs-list">

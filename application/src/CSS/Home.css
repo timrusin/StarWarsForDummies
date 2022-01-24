@@ -46,7 +46,11 @@ body{
 
 .opening-title{
     text-align: center;
-    font-size: 2em;
-    padding-bottom: 50px;
+    font-size: 3em;
+}
+
+.opening-subtitle{
+    text-align: center;
+    padding-bottom: 30px;
 }
 

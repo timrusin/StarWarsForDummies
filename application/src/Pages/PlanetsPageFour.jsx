@@ -26,7 +26,7 @@ const PlanetsPageFour = ()=>{
      <div className="card-container">
        {planetsArray.map((item, i)=> {
         return(
-          <Container>
+          <Container key={item.name}>
           <div className="planet-container">
             <h1 className="planet-name">{item.name}</h1>
               <ul className="planet-specslist">

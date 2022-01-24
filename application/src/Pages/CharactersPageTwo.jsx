@@ -26,7 +26,7 @@ const CharactersPageTwo = ()=>{
       <div className="card-container">
         {charactersArray.map((item, i)=> {
             return (
-              <Container>
+              <Container key={item.name}>
               <div className="character-container">
                   <h1 className="character-name">{item.name}</h1>
                   <ul className="item-specs-list">
