@@ -9,15 +9,16 @@ const Navigation = ()=>{
 
     <Navbar className="nav-bar" color="warning" expand="sm" fixed="top" light>
         <NavbarBrand href="/">
-        <span className="star-wars">StarWars</span> <span className="dummies">for dummies</span>
+        <div className="star-wars">StarWars</div> 
+        <div className="dummies">for dummies</div>
         </NavbarBrand>
-        <NavbarToggler onClick={function noRefCheck(){}} />
-        <Collapse navbar>
+        {/* <NavbarToggler onClick={function noRefCheck(){}} /> */}
+        {/* <Collapse navbar> */}
         <Nav className="me-auto" navbar>
             
             <NavItem>
                 <NavLink href="/Movies/">
-                Movies
+                    Movies
                 </NavLink>
             </NavItem>
 
@@ -84,7 +85,7 @@ const Navigation = ()=>{
         <NavbarText className="swapi">
             powered by:<NavLink href="https://swapi.dev/" target="new">SWAPI</NavLink>
         </NavbarText>
-        </Collapse>
+        {/* </Collapse> */}
     </Navbar>
 
     )

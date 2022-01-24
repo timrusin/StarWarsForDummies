@@ -1,7 +1,7 @@
 .nav-bar{
     position: sticky;
     top:0px;
-    height: 60px;
+    height: auto;
     font-size: 1em;
     margin-bottom: 10px;
 }
@@ -13,8 +13,8 @@
 .dummies{
     font-size: 10px;
     margin-right: 20px;
+    margin-left: 5%;
 }
-
 
 .star-wars{
     font-size: 1.5em;
