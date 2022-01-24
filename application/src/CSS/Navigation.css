@@ -13,8 +13,9 @@
 .dummies{
     font-size: 10px;
     margin-right: 20px;
-    margin-left: 5%;
+    margin-left: 2%;
 }
+
 
 .star-wars{
     font-size: 1.5em;
@@ -23,6 +24,6 @@
 
 .drop-down{
     background-color: rgba(171, 171, 171, 0.892);
-    width: 20px;
+    width: 10px;
  
 }

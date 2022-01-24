@@ -38,3 +38,9 @@ button:hover{
   display: flex;
 justify-content: center;
 }
+
+.info-btn{
+  margin-top: 5px;
+  font-size: .75em;
+  background: transparent;
+}

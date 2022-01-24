@@ -18,7 +18,7 @@ const Home = ()=>{
          </div>
          <div className="crawl-sections">
          Star Wars for Dummies can be a great resource to learn about Characters from the films, planets,
-         weapons, starships, and even just the films themselves. (First six episodes)
+         species, starships, and even just the films themselves. (First six episodes)
          </div>
          <div className="crawl-sections">
          Star Wars for Dummies can also be enjoyed by Star Wars enthusiasts as well.  

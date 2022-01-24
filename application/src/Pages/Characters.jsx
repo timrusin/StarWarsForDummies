@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import '../CSS/CharacterCard.css'
-import { Container, Spinner } from "reactstrap";
+import { Container, Spinner, Button } from "reactstrap";
 import { Link } from "react-router-dom";
+
+
 const Characters = ()=>{
   
    const [characters, setCharacters]= useState()
@@ -23,7 +25,8 @@ const Characters = ()=>{
     console.log(characters)
     const charactersArray = characters.results
     console.log(charactersArray)
-    
+  
+
     return(
     <Container>
       <div className="card-container">

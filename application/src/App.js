@@ -1,5 +1,4 @@
 import React, { Route, Routes } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Components/Navigation'
 import Home from './Pages/Home'
 import Characters from './Pages/Characters'
