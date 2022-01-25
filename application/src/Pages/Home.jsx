@@ -17,8 +17,8 @@ const Home = ()=>{
          OK, you may not be a dummy, but you may have also NEVER seen a Star Wars movie in your life. 
          </div>
          <div className="crawl-sections">
-         Star Wars for Dummies can be a great resource to learn about Characters from the films, planets,
-         species, starships, and even just the films themselves. (First six episodes)
+         Star Wars for Dummies can be a great resource to learn about characters, planets,
+         species, starships, from the Star Wars films. The first six episodes of the Star Wars saga are included as well.
          </div>
          <div className="crawl-sections">
          Star Wars for Dummies can also be enjoyed by Star Wars enthusiasts as well.  

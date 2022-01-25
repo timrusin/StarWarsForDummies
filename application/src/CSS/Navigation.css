@@ -2,7 +2,7 @@
     position: sticky;
     top:0px;
     height: auto;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
@@ -12,18 +12,18 @@
 
 .dummies{
     font-size: 10px;
-    margin-right: 20px;
-    margin-left: 2%;
+    margin-top: 0;
+    margin-left: 8%;
 }
 
 
 .star-wars{
     font-size: 1.5em;
     margin-left:5%;
+    padding-right:20px;
 }
 
-.drop-down{
-    background-color: rgba(171, 171, 171, 0.892);
-    width: 10px;
- 
+.menu{
+    background-color: rgba(167, 167, 167, 0.892);
+    width: auto;
 }
