@@ -56,10 +56,10 @@ const PlanetsPageFive = ()=>{
        })}
         <div className="page-buttons">
           <Link to='/planets/page4'>
-            <button className="prev-next-btn">prev</button>
+            <button className="prev-next-btn-btm">prev</button>
           </Link>
           <Link to='/planets/page6'>
-            <button className="prev-next-btn">next</button>
+            <button className="prev-next-btn-btm">next</button>
           </Link>
         </div>
      </div>

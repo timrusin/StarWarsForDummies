@@ -53,7 +53,7 @@ const PlanetsPageSix = ()=>{
        })}
        <div className="page-buttons">
           <Link to='/planets/page5'>
-            <button className="prev-next-btn">prev</button>
+            <button className="prev-next-btn-btm">prev</button>
           </Link>
         </div>
      </div>

@@ -51,10 +51,10 @@ const CharactersPageEight = ()=>{
         })}
         <div className="page-buttons">
           <Link to='/characters/page7'>
-            <button className="prev-next-btn">prev</button>
+            <button className="prev-next-btn-btm">prev</button>
           </Link>
           <Link to='/characters/page9'>
-            <button className="prev-next-btn">next</button>
+            <button className="prev-next-btn-btmn">next</button>
           </Link>
         </div>
       </div>
