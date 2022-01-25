@@ -45,8 +45,14 @@ body{
 
 @media only screen and (max-width: 600px){
     .opening-title{
-        font-size: 2em;
+        font-size: 1.5em;
     }
+    .crawl{
+        font-size: 1em;
+    }
+    
+    
+
 }
 
 .opening-subtitle{
