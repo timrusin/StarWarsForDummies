@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import '../CSS/CharacterCard.css'
-import { Container, Spinner, Button } from "reactstrap";
+import { Container, Spinner } from "reactstrap";
 import { Link } from "react-router-dom";
 
 
