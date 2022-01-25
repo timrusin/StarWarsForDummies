@@ -1,3 +1,7 @@
+body{
+  overflow: scroll;
+}
+
 .character-container{
 margin-top:10px;
 display: flex;
