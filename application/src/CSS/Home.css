@@ -13,7 +13,7 @@ body{
     display: flex;
     perspective: 800px;
     height: 100%;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     padding-top:200px;
 }
@@ -28,19 +28,18 @@ body{
 }
 .crawl{
     margin: 50% 0 0 0;
-    font-size:6vw;
+    font-size:2em;
     font-family: 'Roboto Mono';
     line-height: 1.5em;
     font-weight: bold; 
     text-align: justify;
-    position: relative;
-    animation: scroll 100s linear infinite;
-    transform: rotateX(180deg); 
+    position: absolute;
+    animation: scroll 30s linear infinite;
 }
 
 @keyframes scroll {
-    from {top: 0; transform: translateZ(0) rotateX(10deg) }
-    to {top:-9500px; transform: translateZ(-2000px) rotateX(40deg)}
+    from {top: 0px; transform: translateZ(0) rotateX(20deg) }
+    to {top:-6000px; transform: translateZ(-1000px) rotateX(30deg)}
 } 
 
 .crawl-sections{
