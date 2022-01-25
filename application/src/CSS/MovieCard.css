@@ -9,8 +9,8 @@ body{
     border: 2px solid rgb(202, 202, 205);
     width:auto;
     height: auto;
-    text-shadow: 0px 2px 20px rgb(220, 220, 220);
-    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.365);
+    text-shadow: 0px 2px 20px rgba(220, 220, 220, 0.769);
+    box-shadow: 0px 10px 60px rgba(255, 255, 255, 0.365);
   }
   
   .movie-name{
@@ -20,9 +20,12 @@ body{
   
   .movie-specs-list{
     font-size: 1em;
+    font-weight: bold;
+    color: rgb(76, 203, 203);
   }
 
   .movie-intro-crawl{
     margin: 0 2%;
+    font-weight: bold;
   }
   

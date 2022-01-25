@@ -24,13 +24,18 @@ const Planets = ()=>{
    
    return(
    <Container>
+        <div className="page-buttons">
+          <Link to='/planets/page2'>
+            <button className="prev-next-btn">next</button>
+          </Link>
+        </div>
      <div className="card-container">
        {planetsArray.map((item, i)=> {
         return(
           <Container key={item.name}>
             <div className="planet-container">
               <h1 className="planet-name">{item.name}</h1>
-                <ul className="planet-specslist">
+                <ul className="planet-specs-list">
                     <li>Climate: {item.climate}</li>
                     <li>Diameter: {item.diameter} km</li>
                     <li>Gravity: {item.gravity} (1 is equal to normal gravity)</li>
@@ -47,7 +52,7 @@ const Planets = ()=>{
        })}
        <div className="page-buttons">
           <Link to='/planets/page2'>
-            <button>next</button>
+            <button className="prev-next-btn">next</button>
           </Link>
         </div>
      </div>

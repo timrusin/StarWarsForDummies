@@ -24,6 +24,14 @@ const CharactersPageSix = ()=>{
     
     return(
     <Container>
+        <div className="page-buttons">
+          <Link to='/characters/page5'>
+            <button className="prev-next-btn">prev</button>
+          </Link>
+          <Link to='/characters/page7'>
+            <button className="prev-next-btn">next</button>
+          </Link>
+        </div>
       <div className="card-container">
         {charactersArray.map((item, i)=> {
             return (
@@ -43,10 +51,10 @@ const CharactersPageSix = ()=>{
         })}
         <div className="page-buttons">
           <Link to='/characters/page5'>
-            <button>previous</button>
+            <button className="prev-next-btn">prev</button>
           </Link>
           <Link to='/characters/page7'>
-            <button>next</button>
+            <button className="prev-next-btn">next</button>
           </Link>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React, {useState, useEffect } from "react";
+import '../CSS/PlanetCard.css'
 import { Container, Spinner } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -24,13 +25,18 @@ const PlanetsPageSix = ()=>{
    
    return(
    <Container>
+        <div className="page-buttons">
+          <Link to='/planets/page5'>
+            <button className="prev-next-btn">prev</button>
+          </Link>
+        </div>
      <div className="card-container">
        {planetsArray.map((item, i)=> {
         return(
           <Container key={item.name}>
           <div className="planet-container">
             <h1 className="planet-name">{item.name}</h1>
-              <ul className="planet-specslist">
+              <ul className="planet-specs-list">
                   <li>Climate: {item.climate}</li>
                   <li>Diameter: {item.diameter} km</li>
                   <li>Gravity: {item.gravity} (1 is equal to normal gravity)</li>
@@ -47,7 +53,7 @@ const PlanetsPageSix = ()=>{
        })}
        <div className="page-buttons">
           <Link to='/planets/page5'>
-            <button>previous</button>
+            <button className="prev-next-btn">prev</button>
           </Link>
         </div>
      </div>

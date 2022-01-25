@@ -11,19 +11,23 @@
 }
 
 .dummies{
-    font-size: 10px;
-    margin-top: 0;
-    margin-left: 8%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    margin-right: 25px;
+
 }
 
 
 .star-wars{
-    font-size: 1.5em;
-    margin-left:5%;
-    padding-right:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    margin-left:2%;
+    margin-right:5px;
+    
 }
 
 .menu{
     background-color: rgba(167, 167, 167, 0.892);
-    width: auto;
+    border-radius: 10%;
+    width: 10px;
 }

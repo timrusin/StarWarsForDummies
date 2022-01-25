@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+
+
 body{
     overflow: hidden;
     background-color:black;
-    color: rgb(255, 221, 25);
+    color: rgba(233, 226, 19, 0.899);
     background-image:url('/images/starbackground.jpeg');
 }
  
 .wrapper{
     display: flex;
-    perspective: 500px;
+    perspective: 800px;
     height: 100%;
-    width: auto;
+    width: 100%;
     margin: 0 auto;
     padding-top:200px;
 }
@@ -23,21 +27,20 @@ body{
     background: linear-gradient(180deg, rgb(0, 0, 0)40%, rgba(0, 0, 0, 0) 100%);
 }
 .crawl{
-
     margin: 50% 0 0 0;
-    color: #ffc909; 
-    font-size:5vw;
+    font-size:6vw;
+    font-family: 'Roboto Mono';
     line-height: 1.5em;
     font-weight: bold; 
     text-align: justify;
     position: relative;
-    animation: scroll 200s linear infinite;
-    transform: rotateX(60deg); 
+    animation: scroll 100s linear infinite;
+    transform: rotateX(180deg); 
 }
 
 @keyframes scroll {
     from {top: 0; transform: translateZ(0) rotateX(10deg) }
-    to {top:-9500px; transform: translateZ(-1000px) rotateX(30deg)}
+    to {top:-9500px; transform: translateZ(-2000px) rotateX(40deg)}
 } 
 
 .crawl-sections{

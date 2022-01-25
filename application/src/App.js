@@ -17,8 +17,8 @@ import PlanetsPageFour from './Pages/PlanetsPageFour'
 import PlanetsPageFive from './Pages/PlanetsPageFive'
 import PlanetsPageSix from './Pages/PlanetsPageSix'
 import Movies from './Pages/Movies'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
+ 
 function App() {
   return (
     <>
