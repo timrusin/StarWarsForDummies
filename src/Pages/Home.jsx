@@ -19,11 +19,11 @@ const Home = ()=>{
          This is a beta version of Star Wars for Dummies with several more features coming soon. 
          </div>
          <div className="crawl-sections">
-         In the meantime, feel free to browse some Start Wars Movies, Chracters, and Planets.
-         more info including, species, vehicles, and starships will be added soon, along with interconneting information between all of these categories.
+         In the meantime, feel free to browse some Star Wars Movies, Characters, and Planets.
+         more info including, species, vehicles, and starships will be added soon, along with interconnecting information between all of these categories.
          </div>
          <div className="crawl-sections">
-         Star Wars for Dummies will not only be fore the Star Wars novices, but can also be enjoyed by Star Wars enthusiasts as well.  
+         Star Wars for Dummies will not only be for the Star Wars novices, but can also be enjoyed by Star Wars enthusiasts as well.  
          </div>
          <div className="crawl-sections">
          Feel free to nerd out on here with all the specs you can handle.
