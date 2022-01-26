@@ -24,7 +24,7 @@ body{
     font-weight: bold; 
     text-align: justify;
     position: absolute;
-    animation: scroll 80s linear infinite;
+    animation: scroll 90s linear infinite;
 }
 
 @keyframes scroll {
