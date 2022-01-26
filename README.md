@@ -9,8 +9,18 @@ The application, in its current beta state, allows the user to browse informatio
 
 This application is still in development that will eventually include not only more categories (species, starships, vehicles) but also more functionality allowing the user to make connections between all of the categories to browse information more thoroughly. (ie. What vehicles has Luke Skywalker driven? What planet is his home world? What species is he, etc..) As my React skills are developing, I look forward to implementing all of these features.
 
+## Technologies implemented:
+- React
+- reactstrap
+- CSS
+- Public API utilization using Fetch and json protocols
+- Netlify
+
 ## Wireframe of App
 ![Wireframe](https://github.com/timrusin/StarWarsForDummies/blob/main/StarWarsForDumies_wireframe.jpg)
+
+## Original React Heiarchy
+![OriginalHeiarchy](https://github.com/timrusin/StarWarsForDummies/blob/main/images/StarWarsForDummies_ReactHeiarchy.jpg)
 
 ## Progression of design:
 ![Opening Star Wars Crawl](https://github.com/timrusin/StarWarsForDummies/blob/main/images/opening%20crawl.jpg)
@@ -28,13 +38,6 @@ All of the data from the API is accessible by page allowing 10 objects at a time
 ![Nav bar closed](https://github.com/timrusin/StarWarsForDummies/blob/main/images/mobile%20closed.jpg)![Nav bar open](https://github.com/timrusin/StarWarsForDummies/blob/main/images/mobile%20open.jpg)
 
 As mentioned above, the application is very mobile friendly utilizing a hamburger drop down navigation bar.
-
-## Technologies implemented:
-- React
-- reactstrap
-- react hooks
-- CSS
-- Public API utilization using Fetch and json protocols
  
 ## [Try the app out](https://starwarsfordummies.netlify.app/)
 
@@ -47,5 +50,9 @@ As mentioned above, the application is very mobile friendly utilizing a hamburge
  
 ## API documentation link:
 https://swapi.dev/documentation
+
+# Cedit:
+[starting point for home screen crawl](https://www.youtube.com/watch?v=kHrV2ZHzF-0)
+
  
 
