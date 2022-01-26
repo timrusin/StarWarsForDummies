@@ -36,7 +36,7 @@ As mentioned above, the application is very mobile friendly utilizing a hamburge
 - CSS
 - Public API utilization using Fetch and json protocols
  
-##[Try the app out](https://starwarsfordummies.netlify.app/)
+## [Try the app out](https://starwarsfordummies.netlify.app/)
 
 ## Moving forward:
 - Utilization of all of the API's data (species, starships, vehicles)
