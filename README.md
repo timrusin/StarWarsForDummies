@@ -21,11 +21,11 @@ I became pretty obsessed with the opening crawl on the home page. Although this 
 
 I tried to stick with the yellow font color that is so classic to the Star Wars films but then later added some box shadows to make it appear that the boxes were floating in space, as well as changing some of the font to that classic blue color that is synonymous to Star Wars theming as well. 
 
-![Drop down pages](https://github.com/timrusin/StarWarsForDummies/blob/main/images/page%20drop%20down.jpg) ![Page Buttons](https://github.com/timrusin/StarWarsForDummies/blob/main/images/page%20buttons.jpg)
+![Drop down pages](https://github.com/timrusin/StarWarsForDummies/blob/main/images/page%20drop%20down.jpg)![Page Buttons](https://github.com/timrusin/StarWarsForDummies/blob/main/images/page%20buttons.jpg)
 
 All of the data from the API is accessible by page allowing 10 objects at a time.  I originally had drop down menus allowing the user to choose what page they wanted to go to for the characters and planets.  I found this to be more cumbersome than it was worth, specifically with the mobile drop down menu. I decided to go with simple "prev" and "next" page buttons on each page instead. I hope to implement a search function in the future as well.
 
-![Nav bar closed](https://github.com/timrusin/StarWarsForDummies/blob/main/images/mobile%20closed.jpg) ![Nav bar open](https://github.com/timrusin/StarWarsForDummies/blob/main/images/mobile%20open.jpg)
+![Nav bar closed](https://github.com/timrusin/StarWarsForDummies/blob/main/images/mobile%20closed.jpg)![Nav bar open](https://github.com/timrusin/StarWarsForDummies/blob/main/images/mobile%20open.jpg)
 
 As mentioned above, the application is very mobile friendly utilizing a hamburger drop down navigation bar.
 
