@@ -16,11 +16,14 @@ const Home = ()=>{
          OK, you may not be a dummy, but you may have also NEVER seen a Star Wars movie in your life. 
          </div>
          <div className="crawl-sections">
-         Star Wars for Dummies can be a great resource to learn about characters, planets,
-         species, starships, from the Star Wars films. The first six episodes of the Star Wars saga are included as well.
+         This is a beta version of Star Wars for Dummies with several more features coming soon. 
          </div>
          <div className="crawl-sections">
-         Star Wars for Dummies can also be enjoyed by Star Wars enthusiasts as well.  
+         In the meantime, feel free to browse some Start Wars Movies, Chracters, and Planets.
+         more info including, species, vehicles, and starships will be added soon, along with interconneting information between all of these categories.
+         </div>
+         <div className="crawl-sections">
+         Star Wars for Dummies will not only be fore the Star Wars novices, but can also be enjoyed by Star Wars enthusiasts as well.  
          </div>
          <div className="crawl-sections">
          Feel free to nerd out on here with all the specs you can handle.

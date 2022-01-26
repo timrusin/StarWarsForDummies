@@ -4,6 +4,7 @@ import { Container, Spinner } from "reactstrap";
 
 
 const Movies = ()=>{
+
     const [movies, setMovies] = useState()
 
     useEffect(()=> {
@@ -19,7 +20,7 @@ const Movies = ()=>{
         )
     }
     const moviesArray = movies.results
-    console.log(moviesArray)
+   
     return(
     <Container>
         <div className="card-container">
@@ -27,18 +28,18 @@ const Movies = ()=>{
             return(
                 <Container key={item.title}>
                     <div className="movie-container">
-                <h1 className="movie-name">{item.title}</h1>
-                <ul className="movie-specs-list">
-                    <li>Episode: {item.episode_id}</li>
-                    <li>Director: {item.director}</li>
-                    <li>Released: {item.release_date}</li>
-                    <li>Producer(s): {item.producer}</li>
-                </ul>
-                    <div>
-                        <p className="movie-intro-crawl" >
-                            {item.opening_crawl}
-                        </p>
-                    </div>
+                        <h1 className="movie-name">{ item.title }</h1>
+                        <ul className="movie-specs-list">
+                            <li>Episode: { item.episode_id }</li>
+                            <li>Director: { item.director }</li>
+                            <li>Released: { item.release_date }</li>
+                            <li>Producer(s): { item.producer }</li>
+                        </ul>
+                        <div>
+                            <p className="movie-intro-crawl" >
+                                { item.opening_crawl }
+                            </p>
+                        </div>
                     </div>
                 </Container>
                 )

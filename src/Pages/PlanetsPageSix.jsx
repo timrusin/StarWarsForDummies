@@ -1,10 +1,11 @@
-import React, {useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import '../CSS/PlanetCard.css'
 import { Container, Spinner } from "reactstrap";
 import { Link } from "react-router-dom";
 
 
 const PlanetsPageSix = ()=>{
+
     const [planets, setPlanets]= useState()
 
     useEffect(()=> {
@@ -15,13 +16,12 @@ const PlanetsPageSix = ()=>{
    if(!planets) {
     return (
       <Container>
-      <Spinner color="warning" type="border"></Spinner>
+        <Spinner color="warning" type="border"></Spinner>
       </Container>
       )
    }
-   console.log(planets)
+
    const planetsArray = planets.results
-   console.log(planetsArray)
    
    return(
    <Container>
@@ -33,22 +33,21 @@ const PlanetsPageSix = ()=>{
      <div className="card-container">
        {planetsArray.map((item, i)=> {
         return(
-          <Container key={item.name}>
-          <div className="planet-container">
-            <h1 className="planet-name">{item.name}</h1>
-              <ul className="planet-specs-list">
-                  <li>Climate: {item.climate}</li>
-                  <li>Diameter: {item.diameter} km</li>
-                  <li>Gravity: {item.gravity} (1 is equal to normal gravity)</li>
-                  <li>Orbital Period: {item.orbital_period} days to orbit local star</li>
-                  <li>Population: {item.population}</li>
-                  {/* <li>Residents: {item.residents}</li> */}
-                  <li>Rotation Period: {item.rotation_period} hours</li>
-                  <li>Surface Water: {item.surface_water} %</li> 
-                  <li>Terrain: {item.terrain}</li>
-              </ul>
-        </div>
-    </Container>
+          <Container key={ item.name }>
+            <div className="planet-container">
+              <h1 className="planet-name">{ item.name }</h1>
+                <ul className="planet-specs-list">
+                    <li>Climate: { item.climate }</li>
+                    <li>Diameter: { item.diameter } km</li>
+                    <li>Gravity: { item.gravity } (1 is equal to normal gravity)</li>
+                    <li>Orbital Period: { item.orbital_period } days to orbit local star</li>
+                    <li>Population: { item.population }</li>
+                    <li>Rotation Period: { item.rotation_period } hours</li>
+                    <li>Surface Water: { item.surface_water } %</li> 
+                    <li>Terrain: { item.terrain }</li>
+                </ul>
+            </div>
+          </Container>
             )
        })}
        <div className="page-buttons">

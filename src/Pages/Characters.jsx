@@ -22,11 +22,9 @@ const Characters = ()=>{
         </div>
         )
     }
-    console.log(characters)
+   
     const charactersArray = characters.results
-    console.log(charactersArray)
-  
-
+    
     return(
     <Container>
         <div className="page-buttons">
@@ -38,16 +36,16 @@ const Characters = ()=>{
         {charactersArray.map((item)=> {
             return (
               <Container key={item.name}>
-              <div className="character-container">
-                  <h1 className="character-name">{item.name}</h1>
-                  <ul className="item-specs-list">
-                      <li>Gender: {item.gender}</li>
-                      <li>Height: {item.height} cm</li>
-                      <li>Mass: {item.mass} kg</li>
-                      <li>Hair Color: {item.hair_color}</li>
-                      <li>Skin Color: {item.skin_color}</li>
-                  </ul>
-              </div>
+                <div className="character-container">
+                    <h1 className="character-name">{ item.name }</h1>
+                      <ul className="item-specs-list">
+                          <li>Gender: { item.gender }</li>
+                          <li>Height: { item.height } cm</li>
+                          <li>Mass: { item.mass } kg</li>
+                          <li>Hair Color: { item.hair_color }</li>
+                          <li>Skin Color: { item.skin_color }</li>
+                      </ul>
+                </div>
               </Container>
               )
         })}
