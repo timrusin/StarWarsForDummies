@@ -32,7 +32,7 @@ const CharactersPageThree = ()=>{
           </Link>
         </div>
       <div className="card-container">
-        {charactersArray.map((item, i)=> {
+        {charactersArray.map((item)=> {
             return (
               <Container key={item.name}>
                 <div className="character-container">

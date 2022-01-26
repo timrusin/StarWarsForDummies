@@ -31,7 +31,7 @@ const PlanetsPageSix = ()=>{
           </Link>
         </div>
      <div className="card-container">
-       {planetsArray.map((item, i)=> {
+       {planetsArray.map((item)=> {
         return(
           <Container key={ item.name }>
             <div className="planet-container">
