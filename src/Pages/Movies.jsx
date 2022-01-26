@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import '../CSS/MovieCard.css'
+import '../css/MovieCard.css'
 import { Container, Spinner } from "reactstrap";
 
 

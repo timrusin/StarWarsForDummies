@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import '../CSS/PlanetCard.css'
+import '../css/PlanetCard.css'
 import { Container, Spinner } from "reactstrap";
 import { Link } from "react-router-dom";
 
