@@ -20,6 +20,7 @@ const Movies = ()=>{
         )
     }
     const moviesArray = movies.results
+    console.log(moviesArray);
    
     return(
     <Container>

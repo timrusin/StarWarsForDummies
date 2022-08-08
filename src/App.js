@@ -11,11 +11,6 @@ import CharactersPageSeven from './pages/CharactersPageSeven'
 import CharactersPageEight from './pages/CharactersPageEight'
 import CharactersPageNine from './pages/CharactersPageNine'
 import Planets from './pages/Planets'
-import PlanetsPageTwo from './pages/PlanetsPageTwo'
-import PlanetsPageThree from './pages/PlanetsPageThree'
-import PlanetsPageFour from './pages/PlanetsPageFour'
-import PlanetsPageFive from './pages/PlanetsPageFive'
-import PlanetsPageSix from './pages/PlanetsPageSix'
 import Movies from './pages/Movies'
  
 function App() {
@@ -34,12 +29,7 @@ function App() {
           <Route path='/characters/page7' element={ <CharactersPageSeven/> }/>
           <Route path='/characters/page8' element={ <CharactersPageEight/> }/>
           <Route path='/characters/page9' element={ <CharactersPageNine/> }/>
-          <Route path='/planets/page1' element={ <Planets/> }/>
-          <Route path='/planets/page2' element={ <PlanetsPageTwo/> }/>
-          <Route path='/planets/page3' element={ <PlanetsPageThree/> }/>
-          <Route path='/planets/page4' element={ <PlanetsPageFour/> }/>
-          <Route path='/planets/page5' element={ <PlanetsPageFive/> }/>
-          <Route path='/planets/page6' element={ <PlanetsPageSix/> }/>
+          <Route path='/planets' element={ <Planets/> }/>
           <Route path='/movies' element={ <Movies/> }/>
         </Routes>
       </main>

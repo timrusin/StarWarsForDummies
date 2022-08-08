@@ -20,3 +20,20 @@
     font-weight: bold;
     color: rgb(76, 203, 203);
   }
+
+  .page-buttons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .prev-next-btn{
+    background: none;
+    border: none;
+    color:rgba(233, 226, 19, 0.899);
+    font-size: 1.5em;
+  }
+
+  .button-holder{
+    display: flex;
+    justify-content: space-evenly;
+  }

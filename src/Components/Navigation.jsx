@@ -26,7 +26,7 @@ const Navigation = ()=>{
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/planets/page1">
+                    <NavLink href="/planets">
                         Planets
                     </NavLink>
                 </NavItem>
